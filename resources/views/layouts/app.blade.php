@@ -16,6 +16,10 @@
         @yield('contenido')
 
     </main>
+    <div class="text-center bg bg-green-100 my-4">
+        <h1 class="text-lg font-semibold m-4 uppercase"> @yield('cabecera')
+        </h1>
+    </div>
     <footer>
         @include('layouts.footer')
 

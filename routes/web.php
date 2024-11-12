@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+route::view('/', 'welcome');
 
 route::resource('productos', App\Http\controllers\ProductoController::class);
 
